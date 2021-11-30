@@ -4,7 +4,7 @@
   "description": "* 类型声明空间  * 变量声明空间",
   "main": "demo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/peterzhangxr/ts-study/issues"
   },
-  "homepage": "https://github.com/peterzhangxr/ts-study#readme"
+  "homepage": "https://github.com/peterzhangxr/ts-study#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.0",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.5.2"
+  }
 }
