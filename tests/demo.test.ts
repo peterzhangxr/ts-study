@@ -1,3 +1,4 @@
+import num from '../src/demo'
 test('demo', () => {
-	expect(1).toBe(1)
+	expect(num).toBe(123)
 })
